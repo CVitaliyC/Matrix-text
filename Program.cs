@@ -11,34 +11,34 @@ namespace Vitaliy.Helloworld
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            string greeting_1 = "Hello, Dude....",
-            greeting_2 = "I know where you are now",
-            greeting_3 = "And I have smth for you....",
-            greeting_4 = "Liza gives you and Olya best regards";
-            foreach (char greeting in greeting_1)
+            string greeting1 = "Hello, Dude....",
+            greeting2 = "I know where you are now",
+            greeting3 = "And I have smth for you....",
+            greeting4 = "Liza gives you and Olya best regards";
+            foreach (char symbol in greeting1)
             {
-                Console.Write(greeting);
+                Console.Write(symbol);
                 Thread.Sleep(200);
             }
             Thread.Sleep(5000);
             Console.Clear();
-            foreach (char greeting in greeting_2)
+            foreach (char symbol in greeting2)
             {
-                Console.Write(greeting);
+                Console.Write(symbol);
                 Thread.Sleep(200);
             }
             Thread.Sleep(5000);
             Console.Clear();
-            foreach (char greeting in greeting_3)
+            foreach (char symbol in greeting3)
             {
-                Console.Write(greeting);
+                Console.Write(symbol);
                 Thread.Sleep(200);
             }
             Thread.Sleep(5000);
             Console.Clear();
-            foreach (char greeting in greeting_4)
+            foreach (char symbol in greeting4)
             {
-                Console.Write(greeting);
+                Console.Write(symbol);
                 Thread.Sleep(200);
             }
             Thread.Sleep(5000);
